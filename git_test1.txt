@@ -5,3 +5,5 @@ git is free software distributed under the GPL
 more test
 
 diff test
+
+git origin push test
