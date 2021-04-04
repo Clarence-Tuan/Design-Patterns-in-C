@@ -10,6 +10,16 @@ git origin push test
 
 creating a new branch dev
 
+<<<<<<< HEAD
 creating a new branch featrue1
 
 fix bug issue-101
+=======
+<<<<<<< HEAD
+stash function test
+=======
+creating a new branch featrue1
+
+fix bug issue-101
+>>>>>>> d2d9058 ( 1)
+>>>>>>> dev
