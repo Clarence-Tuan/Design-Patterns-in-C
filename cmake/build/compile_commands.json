@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/work/git_rep/cmake/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-g++.exe   -g -o CMakeFiles/cmake_test1.dir/main.cpp.obj -c D:/work/git_rep/cmake/main.cpp",
+  "file": "D:/work/git_rep/cmake/main.cpp"
+}
+]

@@ -1,0 +1,12 @@
+[
+{
+  "directory": "D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-gcc.exe   -g -o CMakeFiles/queue_test.dir/main.c.obj -c D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/main.c",
+  "file": "D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/main.c"
+},
+{
+  "directory": "D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/build",
+  "command": "C:/mingw64/bin/x86_64-w64-mingw32-gcc.exe   -g -o CMakeFiles/queue_test.dir/queue.c.obj -c D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/queue.c",
+  "file": "D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/queue.c"
+}
+]

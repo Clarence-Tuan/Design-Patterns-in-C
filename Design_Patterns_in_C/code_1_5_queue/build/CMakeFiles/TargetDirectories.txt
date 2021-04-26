@@ -1,0 +1,3 @@
+D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/build/CMakeFiles/rebuild_cache.dir
+D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/build/CMakeFiles/queue_test.dir
+D:/work/git_rep/Design_Patterns_in_C/code_1_5_queue/build/CMakeFiles/edit_cache.dir
