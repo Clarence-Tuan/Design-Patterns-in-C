@@ -13,7 +13,7 @@ int main(void){
     for(j = 0; j < QUEUE_SIZE; j ++){
         h = myQ -> head;
         myQ -> insert(myQ , k);
-        printf("inserting %d at position %d , size = %d \n" , k --, h , myQ -> getSize(myQ));
+        printf("inserting %d at position %d , size = %d  \n" , k --, h , myQ -> getSize(myQ));
     }
 
     printf("Inserted %d elements\n " , myQ -> getSize(myQ));

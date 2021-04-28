@@ -28,12 +28,12 @@ void Queue_Cleanup(Queue* const me){
 
 // operation isFull()
 int Queue_isFull(Queue* const me){
-    return (me -> head + 1) % QUEUE_SIZE == me -> tail;
+    return me -> size == 0 ? 0 : (me -> head) % QUEUE_SIZE == me -> tail;
 }
 
 // operation isEmpty()
 int Queue_isEmpty(Queue* const me){
-    return(me -> head == me -> tail);
+    return me -> size > 0 ? 0 : (me -> head == me -> tail);
 }
 
 // operation getSize()
@@ -56,7 +56,7 @@ int Queue_remove(Queue* const me){
     if(!me -> isEmpty(me)){
         value = me -> buffer[me -> tail];
         me -> tail = (me -> tail + 1) % QUEUE_SIZE;
-        -me -> size; 
+        --me -> size; 
     }
     return value;
 }
