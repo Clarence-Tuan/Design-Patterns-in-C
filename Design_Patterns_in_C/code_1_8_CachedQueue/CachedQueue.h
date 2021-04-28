@@ -41,10 +41,10 @@ void CachedQueue_Cleanup(CachedQueue* const me);
 int CachedQueue_isFull(CachedQueue* const me);
 int CachedQueue_isEmpty(CachedQueue* const me);
 int CachedQueue_getSize(CachedQueue* const me);
-int CachedQueue_insert(CachedQueue* const me , int k);
+void CachedQueue_insert(CachedQueue* const me , int k);
 int CachedQueue_remove(CachedQueue* const me);
-int CachedQueue_flush(CachedQueue* const me);
-int CachedQueue_load(CachedQueue* const me);
+void CachedQueue_flush(CachedQueue* const me);
+void CachedQueue_load(CachedQueue* const me);
 
 CachedQueue* CachedQueue_Create(void);
 
